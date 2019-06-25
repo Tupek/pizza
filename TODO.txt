@@ -1,0 +1,22 @@
+FRONTEND PAGES:
+-home
+-menu
+	-pizzas/dodatki/sos
+	-zupy
+	-makarony
+	-pierogi
+	-nalesniki
+	-dania obiadowe
+	-dodatki
+	-surówki
+	-napoje
+-promocje
+-ulotka
+-strefy dowozu
+-o nas
+-kontakt
+
+
+Menu:
+-nazwa, cena, zdjecie
+
