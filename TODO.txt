@@ -1,22 +1,68 @@
 FRONTEND PAGES:
--home
--menu
-	-pizzas/dodatki/sos
-	-zupy
-	-makarony
-	-pierogi
-	-nalesniki
-	-dania obiadowe
-	-dodatki
-	-surówki
-	-napoje
--promocje
--ulotka
--strefy dowozu
--o nas
--kontakt
+- Home:
+	*first box:
+		-title
+		-name
+		-description
+		-img	
+	*menu
+	*recent form blog
+	*google maps
+	*contact:
+		-first name
+		-last name
+		-message
+
+	*navbar: nav-item active zrobić if 
 
 
-Menu:
--nazwa, cena, zdjecie
+- Menu:
+	*Pizza:
+		-name
+		-price
+		-description
+		-
+	*Drinks:
+		-name
+		-price
+		-description
+	*Burgers:
+		-name
+		-price
+		-description
+	*Pasta:
+		-name
+		-price
+		-description
+-Contact:
+	*messages:
+		-name
+		-email
+		-subject
+		-message
 
+-Blog:
+	-title
+	-description
+	-photo
+	-categories
+	
+	**-comments:
+		-name
+		-email
+		-website
+		-message
+
+
+
+*Footer:
+	-recent blog
+	-social media
+	-
+
+
+
+**
+- blog+about html !!! pages.views.py i urls.py
+- zrobić koszyk
+- zaimplementować płatności
