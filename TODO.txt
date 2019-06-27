@@ -63,6 +63,6 @@ FRONTEND PAGES:
 
 
 **
-- blog+about html !!! pages.views.py i urls.py
+- blog+about+services html !!! pages.views.py i urls.py
 - zrobić koszyk
 - zaimplementować płatności
