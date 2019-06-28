@@ -1,0 +1,16 @@
+{% extends 'admin/base.html' %}
+
+{% load static %}
+
+{% block branding %}
+
+    <h1>
+        <a class="navbar-brand" href="{% url 'index' %}">
+            <span class="flaticon-pizza-1 mr-1"></span>Pizza<br><small>Delicous</small>
+        </a>
+    </h1>
+
+{% endblock %}
+{% block extrastyle %}
+    <link rel="stylesheet" href="{% static 'css/admin.css' %}"
+{% endblock %}

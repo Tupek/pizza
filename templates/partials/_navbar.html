@@ -26,37 +26,21 @@
                 >
                     <a href="{% url 'menu' %}" class="nav-link">Menu</a></li>
                 <li
-                    {% if 'services' in request.path %}
-                    class="nav-item active"
-                    {% else %}
-                    class="nav-item"
-                    {% endif %}
-                >
-                    <a href="#" class="nav-link">Services</a></li>
-                <li
                     {% if 'blog' in request.path %}
                     class="nav-item active"
                     {% else %}
                     class="nav-item"
                     {% endif %}
                 >
-                    <a href="{% url 'blog' %}" class="nav-link">Blog</a></li>
-                <li
-                    {% if 'about' in request.path %}
-                    class="nav-item active"
-                    {% else %}
-                    class="nav-item"
-                    {% endif %}
-                >
-                    <a href="{% url 'about' %}" class="nav-link">About</a></li>
-                <li
-                    {% if 'contact' in request.path %}
-                    class="nav-item active"
-                    {% else %}
-                    class="nav-item"
-                    {% endif %}
-                >
                     <a href="{% url 'contact' %}" class="nav-link">Contact</a></li>
+                <li
+                    {% if 'panel' in request.path %}
+                    class="nav-item active"
+                    {% else %}
+                    class="nav-item"
+                    {% endif %}
+                >
+                    <a href="#" class="nav-link">Panel</a></li>
             </ul>
         </div>
     </div>

@@ -1,0 +1,23 @@
+MODEL/DB FIELDS
+
+### MENU 
+title: str
+category: choice field
+description: 
+price: 
+
+### CART
+client: foreigkey
+foods: manytomany do food
+totalprice:
+address: 
+
+## CLIENTS
+street: STR
+city: STR
+zipcode: STR
+value: FLOAT
+
+### BLOG
+
+### CONTACT
