@@ -2,6 +2,8 @@
 
 {% load static %}
 
+{% block title %} | Admin {% endblock %}
+
 {% block branding %}
 
     <h1>
@@ -11,6 +13,9 @@
     </h1>
 
 {% endblock %}
+
 {% block extrastyle %}
-    <link rel="stylesheet" href="{% static 'css/admin.css' %}"
+
+    <link rel="stylesheet" href="{% static 'css/admin.css' %}">
+
 {% endblock %}

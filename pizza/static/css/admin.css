@@ -1,9 +1,51 @@
 #header {
-    height: 50px;
     background: #343a40;
     color: #fff;
 }
 
-#branding h1 {
+#branding h1, #branding h1 a:link, #branding h1 a:visited {
+    color: #fff;
+}
+
+a:link, a:visited {
+    color: #343a40;
+    text-decoration: none;
+}
+
+a.section:link, a.section:visited {
+    color: #343a40;
+    text-decoration: none;
+}
+
+div.breadcrumbs {
+    background: #fac564;
+    color: #fff;
+    padding: 10px 40px;
+    border: none;
+    font-size: 14px;
+    text-align: left;
+}
+
+div.breadcrumbs a {
+    color: #333
+}
+
+.module h2, .module caption, .inline-group h2 {
+    background: #fac564;
+    color: #fff;
+    margin: 0;
+    padding: 8px;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: left;
+}
+
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+    background: #fac564;
+    color: #fff;
+}
+
+button.default, input[type=submit].default, .submit-row input.default {
+    background: #fac564;
     color: #fff;
 }

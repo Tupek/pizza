@@ -9,3 +9,6 @@ def contact(request):
 
 def menu(request):
     return render(request, 'pages/menu.html')
+
+def panel(request):
+    return render(request, 'pages/panel.html')
