@@ -145,6 +145,6 @@ MESSAGE_TAGS = {
 # Mail
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'rekrutacja.jarocin@gmail.com'
-EMAIL_HOST_PASSWORD = '7esx6e6t'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = True
