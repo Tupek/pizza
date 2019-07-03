@@ -16,7 +16,4 @@ def index(request):
         'drinks': drinks
     }
 
-    return render(request, 'menu/menus.html', context)
-
-def menu(request, menu_id):
-    return render(request, 'menu/menu.html')
+    return render(request, 'menu/menu.html', context)
