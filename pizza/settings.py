@@ -141,3 +141,10 @@ MEDIA_URL = '/media/'
 MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
+
+# Mail
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'rekrutacja.jarocin@gmail.com'
+EMAIL_HOST_PASSWORD = '7esx6e6t'
+EMAIL_USE_TLS = True

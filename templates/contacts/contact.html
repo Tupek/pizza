@@ -5,6 +5,8 @@
 {% block title %} | Contact {% endblock %}
 
 {% block content %}
+<!-- Alerts -->
+{% include 'partials/_alerts.html' %}
 
     <section class="home-slider owl-carousel img" style="background-image: url({% static 'images/bg_1.jpg' %});">
 
@@ -48,25 +50,43 @@
                 </div>
                 <div class="col-md-1"></div>
                 <div class="col-md-6 ftco-animate">
-                    <form action="#" class="contact-form">
+                    <form action="{% url 'contact' %}" method="POST" class="contact-form">
+                        {% csrf_token %}
                         <div class="row">
+                            {% if user.is_authenticated %}
+                                <input type="hidden" name="user_id" value="{{ user.id }}">
+                            {% else %}
+                                <input type="hidden" name="user_id" value="0">
+                            {% endif %}
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name">
+                                    <input type="text" class="form-control" name="name"
+                                    {% if user.is_authenticated %}
+                                        value="{{ user.first_name }} {{ user.last_name }}"
+                                    {% else %}
+                                        placeholder="Your Name"
+                                    {% endif %}
+                                    >
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Email">
+                                    <input type="email" class="form-control" name="email"
+                                    {% if user.is_authenticated %}
+                                        value="{{ user.email }}"
+                                    {% else %}
+                                        placeholder="Your Email"
+                                    {% endif %}
+                                    >
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Subject">
+                            <input type="text" class="form-control" placeholder="Subject" name="subject">
                         </div>
                         <div class="form-group">
-                            <textarea name="" id="" cols="30" rows="7" class="form-control"
-                                placeholder="Message"></textarea>
+                            <textarea name="message" id="" cols="30" rows="7" class="form-control"
+                                placeholder="Message" ></textarea>
                         </div>
                         <div class="form-group">
                             <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
