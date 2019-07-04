@@ -21,7 +21,7 @@ def contact(request):
             '\nFor more information, check the administration panel on your website.',
             'rekrutacja.jarocin@gmail.com',
             ['klimak.nowi@gmail.com'],
-            fail_silently=False
+            fail_silently=True
         )
 
         messages.success(request, ' Your request has been submitted.')

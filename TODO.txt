@@ -4,16 +4,15 @@ FRONTEND PAGES:
 		-title
 		-name
 		-description
-		-img	
+		-img
 	*menu
-	*recent form blog
-	*google maps
+
 	*contact:
 		-first name
 		-last name
 		-message
 
-	*navbar: nav-item active zrobić if 
+	*navbar: nav-item active do if
 
 
 - Menu:
@@ -41,28 +40,14 @@ FRONTEND PAGES:
 		-subject
 		-message
 
--Blog:
-	-title
-	-description
-	-photo
-	-categories
-	
-	**-comments:
-		-name
-		-email
-		-website
-		-message
-
 
 
 *Footer:
-	-recent blog
 	-social media
 	-
 
 
 
 **
-- blog+about+services html !!! pages.views.py i urls.py
-- zrobić koszyk
-- zaimplementować płatności
+- Cart
+- payment
