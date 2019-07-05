@@ -6,7 +6,7 @@ This is web application that allows managing restaurant menu.
 * registering and logging to user account
 * sending messages to owner by users and guests
 
-### To Do:
+#### To Do:
 * cart
 * implementing payment
 
@@ -16,9 +16,13 @@ This is web application that allows managing restaurant menu.
 * HTML/CSS/Bootstrap v4.1.0
 
 ## Inspiration
-This app is inspired by [@Brad Traversy on Udemy](https://www.udemy.com/python-django-dev-to-deployment/)
-Front-end design by [@Colorlib](https://themewagon.com/author/kimlabs/)
+This app is inspired by [Brad Traversy on Udemy](https://www.udemy.com/python-django-dev-to-deployment/)
+Front-end design by [Colorlib](https://themewagon.com/author/kimlabs/)
 
-This website can be seen [@here](https://pizzeria-project.herokuapp.com/).
+## Screenshots
+![ss1](./img/pizzeria_ss.png)
+![ss2](./img/pizzeria_ss1.png)
+
+This website can be seen [here](https://pizzeria-project.herokuapp.com/).
 Please note that images are not displayed properly on Heroku Free Plan and website sleeps after 30 mins of inactivity (which also means loading can take a while)
 
