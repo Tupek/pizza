@@ -17,6 +17,7 @@ This is web application that allows managing restaurant menu.
 
 ## Inspiration
 This app is inspired by [Brad Traversy on Udemy](https://www.udemy.com/python-django-dev-to-deployment/)
+
 Front-end design by [Colorlib](https://themewagon.com/author/kimlabs/)
 
 ## Screenshots
