@@ -1,0 +1,14 @@
+# Django
+SECRET_KEY=n4k84pwf1jxk&(#x6k60ip-fo2b)6(^1!oa4%=^f)p$%sekgec
+DEBUG=False
+
+# DB
+DB_NAME=postgres
+DB_USER=postgres
+DB_PASSWORD=postgres
+DB_HOST=db
+DB_PORT=5432
+
+POSTGRES_DB=postgres
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
